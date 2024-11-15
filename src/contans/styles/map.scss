@@ -1,0 +1,13 @@
+.container {
+}
+.map-container {
+    height: 100vh;
+    width: 100vh;
+    text-align: center;
+}
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}

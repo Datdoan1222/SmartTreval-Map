@@ -1,0 +1,142 @@
+.container-headerTop {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 72px;
+    max-height: 72px;
+    transition: margin 0.25s ease-out;
+    z-index: 99999;
+    transition: width 0.25s ease;
+    transition: width 0.25s ease-in;
+}
+.headerTop {
+    // margin-top: 10px;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.search {
+    margin-top: 10px;
+    width: 490px;
+    height: 50px;
+    line-height: 72px;
+    margin-left: 20px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: 0.2px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    z-index: 3;
+}
+.input-search {
+    height: 50px;
+    width: 490px;
+    border-radius: 50px;
+    padding-left: 30px;
+
+    flex: 1;
+    border: none;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+}
+.btn-search {
+    border: none;
+    background-color: white;
+}
+.icon-search {
+    margin-right: 10px;
+    font-size: 24px;
+    color: gray;
+}
+.search-info {
+    position: absolute;
+    display: none;
+    width: 580px;
+
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-content {
+    background: #ffffff;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    width: 100%;
+    height: 100vh;
+}
+.content {
+    // width: 100%;
+    margin: 0 20px;
+    padding: 10px;
+    display: flex;
+}
+.btn-hide {
+    width: 20px;
+    height: 50px;
+    align-items: center;
+    border: 1px solid #a0a0a0;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+button {
+    border: none;
+    background-color: white;
+}
+table {
+}
+// tr,
+th,
+td {
+    width: 200px;
+    // border: 1px solid #000;
+    margin: 0;
+    padding: 0;
+}
+//
+span {
+    font-size: 70%;
+}
+.nofiti-container {
+    margin-right: 90px;
+    display: flex;
+    // width: calc(100vw - 110px);
+}
+.nofiti-Suggest {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 40px;
+}
+.item-Suggest {
+    margin-right: 40px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    height: 34px;
+    // width: 100%;
+    font-size: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.user-header {
+    // background-color: #bc1d1d;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    justify-content: flex-end;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+    border: 0.5px solid #a0a0a0;
+}
+.image-user {
+    max-width: 50px;
+    max-height: 50px;
+}
